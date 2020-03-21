@@ -57,6 +57,11 @@ button:hover {
   background: #27394e;
 }
 
+button:focus {
+  background: #2c3f57;
+  outline-style: solid;
+}
+
 /* Nav Section With Hero */
 
 .main-head {
@@ -93,7 +98,7 @@ nav ul {
 
 .hero {
   min-height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
     url(./img/landing-page.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,11 +211,12 @@ nav ul {
 .card h4,
 .card p {
   padding: 1rem;
+  /* line-height: 3rem; */
 }
 
 .cards img {
   max-width: 15%;
-  margin: 2rem;
+  margin: 1.8;
 }
 
 .card-icon {
